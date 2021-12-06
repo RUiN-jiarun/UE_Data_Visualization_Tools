@@ -14,7 +14,10 @@ public class UE4_Visualization : ModuleRules
 			"Engine", 
 			"InputCore", 
 			"Slate",
-			"SlateCore"
+			"SlateCore",
+			"Http",
+			"Json",
+			"JsonUtilities"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
